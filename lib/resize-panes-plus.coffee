@@ -3,8 +3,8 @@ $ = require 'jquery'
 module.exports =
 
   activate: (state) ->
-    atom.workspaceView.command "resize-panes:enlarge-active-pane", => @enlarge()
-    atom.workspaceView.command "resize-panes:shrink-active-pane", => @shrink()
+    atom.workspaceView.command "resize-panes-plus:enlarge-active-pane", => @enlarge()
+    atom.workspaceView.command "resize-panes-plus:shrink-active-pane", => @shrink()
 
   enlarge: ->
     flex = @getFlex()

@@ -1,13 +1,13 @@
 {
-  "name": "resize-panes",
-  "main": "./lib/resize-panes",
+  "name": "resize-panes-plus",
+  "main": "./lib/resize-panes-plus",
   "version": "0.1.0",
   "description": "Resize panes by enlarging or shrinking them",
   "activationEvents": [
-    "resize-panes:enlarge-active-pane",
-    "resize-panes:shrink-active-pane"
+    "resize-panes-plus:enlarge-active-pane",
+    "resize-panes-plus:shrink-active-pane"
   ],
-  "repository": "https://github.com/santip/resize-panes",
+  "repository": "https://github.com/imamathwiz/resize-panes-plus",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

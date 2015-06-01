@@ -1,0 +1,13 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Resize Panes Plus'
+      'submenu': [
+        { 'label': 'Enlarge active pane', 'command': 'resize-panes-plus:enlarge-active-pane' }
+        { 'label': 'Shrink active pane', 'command': 'resize-panes-plus:shrink-active-pane' }
+       ]
+    ]
+  }
+]
